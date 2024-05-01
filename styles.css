@@ -73,3 +73,28 @@ input, textarea {
     padding: 20px;
     margin-bottom: 20px;
 }
+/* CSS for nav buttons */
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent buttons from wrapping */
+}
+.nav-button {
+    background-color: #3414b4;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 1em 2em;
+    margin: 0.5em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav-button:hover {
+    background-color: #333;
+    color: #fff;
+}
