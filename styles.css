@@ -6,7 +6,8 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    font-family: chiller;
+    color: #a0adb8;
     padding: 20px 0;
 }
 
